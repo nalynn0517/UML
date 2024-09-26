@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="페이지-1" id="rzy0IR_PyBs7s8UH7aJI">
-    <mxGraphModel dx="1740" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1932" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FfJMGdXVH27FMsQC_KON-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Product 클래스 다이어그램&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="18" width="190" height="30" as="geometry" />
+        <mxCell id="FfJMGdXVH27FMsQC_KON-1" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Product 클래스 다이어그램&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="13" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FfJMGdXVH27FMsQC_KON-6" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FfJMGdXVH27FMsQC_KON-6" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-340" y="70" width="470" height="216" as="geometry" />
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-7" value="- productId: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-6">
@@ -35,22 +35,22 @@
           <mxGeometry y="190" width="470" height="26" as="geometry" />
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-12" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;학사 관리 시스템&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="250" y="8" width="190" height="40" as="geometry" />
+          <mxGeometry x="-380" y="409" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-13" value="학사관리 시스템 요구사항을 기반으로 캡슐화를 고려하여 클래스 다이어그램을 설계하시오." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="250" y="53" width="630" height="30" as="geometry" />
+          <mxGeometry x="-380" y="454" width="630" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-17" value="- 학생(학번, 암호, 성명, 학과, 학년, 전화번호, 주소, 이메일)은 수강신청, 성적조회를 할 수 있다." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="250" y="90" width="660" height="30" as="geometry" />
+          <mxGeometry x="-380" y="491" width="660" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-18" value="- 교수(ID, 암호, 성명, 학과, 전화번호, 이메일)은 수강과목등록, 성적입력을 할 수 있다." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="250" y="120" width="560" height="30" as="geometry" />
+          <mxGeometry x="-380" y="521" width="560" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-20" value="- 과목(학번, 과목ID, 과목점수, 학점)은 수강과목등록, 수강신청, 성적입력, 성적조회를 할 수 있다." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="250" y="150" width="630" height="30" as="geometry" />
+          <mxGeometry x="-380" y="551" width="630" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FfJMGdXVH27FMsQC_KON-43" value="학생" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="182" width="290" height="332" as="geometry" />
+        <mxCell id="FfJMGdXVH27FMsQC_KON-43" value="학생" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="603" width="290" height="332" as="geometry" />
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-44" value="- 학번: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-43">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
@@ -88,8 +88,8 @@
         <mxCell id="FfJMGdXVH27FMsQC_KON-69" value="+ 성적조회(학번: int, 암호: String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-43">
           <mxGeometry y="300" width="290" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="FfJMGdXVH27FMsQC_KON-48" value="과목" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="200" width="290" height="242" as="geometry" />
+        <mxCell id="FfJMGdXVH27FMsQC_KON-48" value="과목" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="621" width="290" height="242" as="geometry" />
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-73" value="- ID: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-48">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
@@ -118,8 +118,8 @@
         <mxCell id="FfJMGdXVH27FMsQC_KON-77" value="+ 성적등록(학번:int, 암호: String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-48">
           <mxGeometry y="216" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FfJMGdXVH27FMsQC_KON-55" value="교수" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="590" width="380" height="242" as="geometry" />
+        <mxCell id="FfJMGdXVH27FMsQC_KON-55" value="교수" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1011" width="380" height="242" as="geometry" />
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-56" value="- 학번: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-55">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
@@ -150,12 +150,14 @@
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-84" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1.002;exitY=0.799;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.001;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FfJMGdXVH27FMsQC_KON-62" target="FfJMGdXVH27FMsQC_KON-76">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="380" as="sourcePoint" />
-            <mxPoint x="590" y="380" as="targetPoint" />
+            <mxPoint x="-200" y="801" as="sourcePoint" />
+            <mxPoint x="-40" y="801" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-85" value="n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="FfJMGdXVH27FMsQC_KON-84">
-          <mxGeometry x="-1" relative="1" as="geometry" />
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="3" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-86" value="n" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="FfJMGdXVH27FMsQC_KON-84">
           <mxGeometry x="1" relative="1" as="geometry">
@@ -164,8 +166,8 @@
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-87" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.469;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FfJMGdXVH27FMsQC_KON-69" target="FfJMGdXVH27FMsQC_KON-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="380" as="sourcePoint" />
-            <mxPoint x="590" y="380" as="targetPoint" />
+            <mxPoint x="-200" y="801" as="sourcePoint" />
+            <mxPoint x="-40" y="801" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-88" value="n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="FfJMGdXVH27FMsQC_KON-87">
@@ -180,20 +182,114 @@
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-90" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.473;entryY=1.09;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.536;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FfJMGdXVH27FMsQC_KON-55" target="FfJMGdXVH27FMsQC_KON-77">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="380" as="sourcePoint" />
-            <mxPoint x="590" y="380" as="targetPoint" />
+            <mxPoint x="-200" y="801" as="sourcePoint" />
+            <mxPoint x="-40" y="801" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="544" y="500" />
-              <mxPoint x="737" y="500" />
+              <mxPoint x="-86" y="921" />
+              <mxPoint x="107" y="921" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-91" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="FfJMGdXVH27FMsQC_KON-90">
-          <mxGeometry x="-1" relative="1" as="geometry" />
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FfJMGdXVH27FMsQC_KON-92" value="n" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="FfJMGdXVH27FMsQC_KON-90">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-3" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-94" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-510" y="360" as="sourcePoint" />
+            <mxPoint x="350" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-97" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-510" y="1330" as="sourcePoint" />
+            <mxPoint x="410" y="1331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-100" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;도서 대출 시스템&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="1340" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-101" value="다음의 도서대출 시스템 요구사항을 기반으로 캡슐화를 고려하여 클래스 다이어그램을 설계하시오.&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;본 시스템을 통해 사용자 정보(사용자ID, 사용자암호, 사용자성명, 사용자 전화번호, 사용자주소)를 생성, 수정, 삭제, 조회할 수 있으며,&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;해당 사용자는 도서(도서ID. 도서명, 출판사, 대여일, 반납일)을 대출, 반납할 수 있다.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="1390" width="850" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-102" value="사용자 정보" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="1510" width="610" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-103" value="-사용자 ID: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="26" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-106" value="- 사용자암호 String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="52" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-108" value="- 사용자 성명: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="78" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-107" value="- 사용자 전화번호: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="104" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-109" value="- 사용자 주소: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="130" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-104" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="156" width="610" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-105" value="+ 생성(사용자ID:int, 사용자 암호: String, 사용자 성명: String, 사용자 전화번호: int, 사용자 주소: String): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="164" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-110" value="+ 수정(사용자ID:int, 사용자 암호: String, 사용자 성명: String, 사용자 전화번호: int, 사용자 주소: String): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="190" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-111" value="+ 삭제(사용자ID:int, 사용자 암호: String, 사용자 성명: String, 사용자 전화번호: int, 사용자 주소: String): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="216" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-112" value="+ 조회(사용자ID:int, 사용자 암호: String, 사용자 성명: String, 사용자 전화번호: int, 사용자 주소: String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-102">
+          <mxGeometry y="242" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-120" value="도서" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1510" width="600" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-121" value="- 도서 ID: int&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-120">
+          <mxGeometry y="26" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-124" value="- 도서명: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-120">
+          <mxGeometry y="52" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-125" value="- 출판사: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-120">
+          <mxGeometry y="78" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-126" value="- 대여일: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-120">
+          <mxGeometry y="104" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-127" value="- 반납일: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-120">
+          <mxGeometry y="130" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-122" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-120">
+          <mxGeometry y="156" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-123" value="+ 대출(사용자ID:int, 사용자 암호: String, 도서ID: int, 도서명: String, 대여일: String, 반납일: String): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-120">
+          <mxGeometry y="164" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-128" value="+ 반납(사용자ID:int, 사용자 암호: String, 도서ID: int, 도서명: String, 대여일: String, 반납일: String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FfJMGdXVH27FMsQC_KON-120">
+          <mxGeometry y="190" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-130" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="1630" as="sourcePoint" />
+            <mxPoint x="80" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-131" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="FfJMGdXVH27FMsQC_KON-130">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FfJMGdXVH27FMsQC_KON-132" value="0 ..4" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="FfJMGdXVH27FMsQC_KON-130">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
